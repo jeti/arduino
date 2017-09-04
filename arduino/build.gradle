@@ -41,8 +41,8 @@ ext {
 
     libraryDescription = 'An Android Firmata library.'
 
-    siteUrl = 'https://github.com/mholzel/arduino'
-    gitUrl = 'https://github.com/mholzel/arduino.git'
+    siteUrl = 'https://github.com/jeti/arduino'
+    gitUrl = 'https://github.com/jeti/arduino.git'
 
     libraryVersion = '1.0.0'
 
