@@ -26,16 +26,15 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:26.+'
     testCompile 'junit:junit:4.12'
 }
 
 ext {
 
-    bintrayRepo = 'android'
+    bintrayRepo = 'io'
     bintrayName = 'arduino'
 
-    publishedGroupId = 'io.jeti.arduino'
+    publishedGroupId = 'io.jeti'
     libraryName = 'arduino'
     artifact = 'arduino'
 
@@ -46,11 +45,11 @@ ext {
 
     libraryVersion = '1.0.0'
 
-    developerId = 'mholzel'
-    developerName = 'Matt'
+    developerId = 'jeti'
+    developerName = 'Matthew Holzel'
     developerEmail = 'matthew.holzel@gmail.com'
 
-    organization = 'mholzel'
+    organization = 'jeti'
 
     licenseName = 'The Apache Software License, Version 2.0'  //Example for license
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
